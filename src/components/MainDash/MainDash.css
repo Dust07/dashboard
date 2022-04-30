@@ -1,0 +1,10 @@
+.main-dash{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.cards-container{
+  display: flex;
+  gap: 10px;
+  width:100%;
+}

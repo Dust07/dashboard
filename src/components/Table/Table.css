@@ -1,0 +1,20 @@
+.MuiTableRow-root > *{
+  padding:10px !important;
+}
+
+.MuiTableRow-root.MuiTableRow-head > *{
+    font-weight: bold !important;
+}
+
+.order-table td, th{
+  border: none !important;
+}
+
+.status {
+  padding:8px;
+  border-radius:0.7rem;
+}
+
+.table-detail{
+  color: blue !important;
+}
