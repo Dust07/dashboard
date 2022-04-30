@@ -7,6 +7,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import "./Table.css"
+import "./TableResponsive.css"
 
 function createData(name, trackingId, date, status) {
   return { name, trackingId, date, status };
@@ -16,10 +17,10 @@ const rows = [
   createData("Big Baza Bang ", 18908424, "2 March 2022", "Pending"),
   createData("Mouth Freshner", 18908424, "2 March 2022", "Approved"),
   createData("Cupcake", 18908421, "2 March 2022", "Delivered"),
-  createData("Lasania Chiken Fri", 18908424, "2 March 2022", "Approved"),
-  createData("Big Baza Bang ", 18908424, "2 March 2022", "Pending"),
-  createData("Mouth Freshner", 18908424, "2 March 2022", "Approved"),
-  createData("Cupcake", 18908421, "2 March 2022", "Delivered"),
+  createData("Lasania Chiken Fri 2", 18908425, "2 March 2022", "Approved"),
+  createData("Big Baza Bang 2 ", 18908426, "2 March 2022", "Pending"),
+  createData("Mouth Freshner 2", 18908427, "2 March 2022", "Approved"),
+  createData("Cupcake 2", 18908428, "2 March 2022", "Delivered"),
 ];
 
 const applyStyle = (status) => {

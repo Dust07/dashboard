@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from '../ReusableComponents/Card/Card'
 import "./MainDash.css"
+import "./MainDashResponsive.css"
 import { cardData } from '../../data/data'
 import Table from '../Table/Table'
 

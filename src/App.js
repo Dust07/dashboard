@@ -1,5 +1,7 @@
 import './App.css';
+import "./AppResponsive.css";
 import MainDash from './components/MainDash/MainDash';
+import RightSide from './components/RightSide/RightSide';
 import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
@@ -8,7 +10,7 @@ function App() {
       <div className="app-glass">
         <Sidebar />
         <MainDash />
-        <div></div>
+        <RightSide />
       </div>
     </div>
   );

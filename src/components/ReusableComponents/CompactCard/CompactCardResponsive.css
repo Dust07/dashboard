@@ -1,0 +1,11 @@
+@media screen and (max-width: 1200px) {
+  .radial-chart {
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .compact-card {
+    width: 90%;
+  }
+}

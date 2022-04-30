@@ -1,0 +1,36 @@
+@media screen and (max-width: 1200px) {
+  .logo-container {
+    display: none;
+  }
+  .navigation-item > p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Sidebar {
+    width: 50%;
+    position: fixed;
+    z-index: 9;
+    background: #ffe0e0;
+    height: 100%;
+    padding-right: 1rem;
+    left: 0;
+    top: 0;
+  }
+  .logo-container {
+    display: flex;
+  }
+  .navigation-item > p {
+    display: block;
+  }
+
+  .sign-out-btn {
+    position: inherit;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    display: block;
+  }
+}

@@ -30,6 +30,6 @@ background: linear-gradient(
   background: var(--glass);
   overflow: hidden;
   display:grid;
-  grid-template-columns: 11rem auto 20rem;
+  grid-template-columns: 11rem auto 25rem;
   gap:20px;
 }

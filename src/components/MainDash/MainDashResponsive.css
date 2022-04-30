@@ -1,0 +1,16 @@
+@media screen and (max-width: 1200px) {
+  .main-dash {
+    justify-content: flex-start;
+  }
+
+  .cards-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-dash {
+    padding: 1rem;
+    align-items: center;
+  }
+}

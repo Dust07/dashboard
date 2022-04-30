@@ -1,19 +1,23 @@
 import React from 'react'
-import "./CompactCard.css"
+import { motion } from 'framer-motion';
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-import { motion } from 'framer-motion';
+import "./CompactCard.css"
+import "./CompactCardResponsive.css"
+
 const CompactCard = ({ card, setExpanded }) => {
-  const { title, color, barValue, value, png, series } = card;
+  const { title, color, barValue, value, png } = card;
   const Png = png;
   return (
-    <motion.div className="compact-card"
+    <motion.div
+      layoutId={title}
+      className="compact-card"
       onClick={setExpanded}
       style={{
         background: color.background,
         boxShadow: color.boxShadow
       }}
-      layoutId="expandableCard">
+    >
       <div className="radial-chart">
         <CircularProgressbar
           value={barValue}
@@ -25,7 +29,6 @@ const CompactCard = ({ card, setExpanded }) => {
         <Png />
         <span>${value}</span>
         <span>Last 24 hours</span>
-
       </div>
     </motion.div>
   )

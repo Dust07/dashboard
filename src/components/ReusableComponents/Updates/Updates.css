@@ -1,0 +1,23 @@
+.updates{
+  display: flex;
+  flex-direction: column;
+  width:85%;
+  background: white;
+  border-radius: 0.7rem;
+  padding:1rem;
+  gap:1rem;
+  font-size: 13px;
+}
+.update{
+  display: flex;
+  gap:1rem;
+}
+.noti{
+  display: flex;
+  flex-direction: column;
+  gap:0.5rem;
+}
+.noti-img{
+  width:3rem;
+  height:3rem;
+}

@@ -1,0 +1,15 @@
+@media screen and (max-width:1200px){
+  .app-glass{
+    grid-template-columns: 10% 40% auto;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .app-glass{
+    grid-template-columns: 1fr;
+  }
+  .app-glass::-webkit-scrollbar{
+    display: none;
+  }
+}

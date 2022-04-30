@@ -1,0 +1,17 @@
+@media screen and (max-width: 1200px) {
+  .expanded-card {
+    width: 58%;
+    left: 6rem;
+    top: 5rem;
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .expanded-card {
+    width: 81%;
+    left: 1rem;
+    top: 20%;
+    height: auto;
+  }
+}

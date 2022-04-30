@@ -1,0 +1,11 @@
+@media screen and (max-width: 1200px) {
+  .order-table {
+    width: 200%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .order-table {
+    width: 18rem;
+  }
+}

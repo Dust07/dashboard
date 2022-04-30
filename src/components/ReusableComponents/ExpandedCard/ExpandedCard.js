@@ -1,8 +1,10 @@
 import React from 'react'
-import "./ExpandedCard.css"
 import { UilTimes } from "@iconscout/react-unicons"
 import Chart from "react-apexcharts"
 import { motion } from "framer-motion"
+import "./ExpandedCard.css"
+import "./ExpandedCardResponsive.css"
+
 const data = {
   options: {
     chart: {
@@ -55,15 +57,17 @@ const data = {
 };
 
 const ExpandedCard = ({ card, setExpanded }) => {
-  const { title, color, barValue, value, png, series } = card;
+  const { title, color, series } = card;
 
   return (
-    <motion.div className="expanded-card"
+    <motion.div
+      layoutId={title}
+      className="expanded-card"
       style={{
         background: color.background,
         boxShadow: color.boxShadow
       }}
-      layoutId="expandableCard">
+    >
 
       <div className="close-btn" >
         <UilTimes onClick={setExpanded} />
